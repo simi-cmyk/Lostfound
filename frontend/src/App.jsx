@@ -10,7 +10,6 @@ import MyClaims    from "./pages/myClaims";
 import AdminClaims from "./pages/adminClaims";
 import AdminItems  from "./pages/adminItems";
 import api         from "./api";
-import "./pages/tailwind";
 
 function AppShell() {
   const { auth } = useAuth();
