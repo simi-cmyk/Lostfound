@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import Sidebar     from "./components/siderbar";
-import Topbar      from "./components/topbar";
+import Topbar      from "./components/Topbar";
 import Login       from "./pages/login";
 import Dashboard   from "./pages/dashboard";
 import AllItems    from "./pages/allItems";
